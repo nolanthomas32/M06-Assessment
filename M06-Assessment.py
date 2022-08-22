@@ -151,7 +151,7 @@ def wof_round_setup():
     # Use get_word function to retrieve the word and the underscore word (blank_word)
 
 
-def spin_wheel(player_keys):
+def wof_round_play(player_keys):
     global wheel_list
     global players
     global vowels
@@ -438,8 +438,8 @@ def final_round(player_keys):
 
 
 def wof_game():
-    spin_wheel(player_list)
-    spin_wheel(player_list)
+    wof_round_play(player_list)
+    wof_round_play(player_list)
     final_round(player_list)
 
 wof_game()
