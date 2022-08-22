@@ -1,0 +1,4 @@
+Player {}, it's your turn!
+1: Spin the wheel
+2: Buy a vowel
+3: Guess the word

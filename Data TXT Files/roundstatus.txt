@@ -1,0 +1,4 @@
+At the end of round {} Here are the ranks:
+    Player 1: {}
+    Player 2: {}
+    Player 3: {}
